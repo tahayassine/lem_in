@@ -1,0 +1,1 @@
+echo execution of compilation... && make re -C libft &&  gcc -c *.c -I libft/ && gcc -o test libft/libft.a *.o && rm *.o && echo "DONE"
